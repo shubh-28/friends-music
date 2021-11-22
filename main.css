@@ -1,0 +1,76 @@
+body{
+    background-image: url("/wp.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.main{
+    flex-direction: column;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    color: blanchedalmond;
+}
+.upper{
+    width: 1050px;
+    height: 140px;
+    display: flex;
+    gap: 25px;
+}
+.lower{
+    width: 700px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.middle{
+    width: 850px;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.sb{
+    width: 300px;
+    height: 90px;
+    display: flex;
+    border: 5px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 30px;
+    background-image: url("/images/4th.webp");
+    background-position: center;
+    background-size: cover;
+}
+.a{
+    height: 140px;
+    width: 127px;
+    border: 4px solid black;
+    font-size: 40px;
+    border-radius: 20px;
+    background-image: url("/images/1st.webp");
+    background-position: center;
+    background-size: cover;
+}
+.b{
+    height: 110px;
+    width: 127px;
+    border: 4px solid black;
+    border-radius: 20px;
+    font-size: 30px;
+    background-image: url("/images/2nd.webp");
+    background-position: center;
+    background-size: cover;
+}
+.c{
+    height: 90px;
+    width: 130px;
+    border: 3px solid black;
+    border-radius: 20px;
+    font-size: 25px;
+    background-image: url("/images/3rd-1.webp");
+    background-position: center;
+    background-size: cover;
+}
+
